@@ -1,0 +1,96 @@
+#body{
+    background:#000000 no-repeat fixed;
+    overflow: hidden;
+}
+
+@keyframes animation1{
+    from{ background: #000000 no-repeat fixed; }
+    to{ background: linear-gradient(#FF3334, #ff858b) no-repeat fixed; }
+}
+
+#msg1{
+    display: block;
+    color: white;
+    font-family: "Caveat", 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+button{
+    width: 80px; 
+    height: 45px;
+    color: rgb(67, 0, 39);
+    font-family: "Caveat", 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgb(255, 96, 123);
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(255, 63, 95);
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(255, 63, 95);
+}
+#cookie{
+    border-radius: 300px;
+    position: relative;
+    top: 70px;
+}
+
+@keyframes fadeout{
+    from{opacity: 1; display: solid}
+    to{opacity: 0; display: none}
+}
+
+.centerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 745px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+#tease{
+    display: none;
+    opacity: 0;
+    color: white;
+    font-family: "Caveat", 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    position: absolute;
+    top: 750px;
+    left: 790px
+}
+#cat{
+    display: none;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: solid rgb(255, 0, 43) 7px;
+    border-radius: 15px;
+    box-shadow: -4px 4px 5px black;
+}
+#roses{
+    display: none;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+
+}
+.cat_roses{
+    margin: 0;
+    position: absolute;
+  }
+
+@keyframes fadein{
+    from{opacity: 0; display: none}
+    to{opacity: 1; display: solid}
+}
