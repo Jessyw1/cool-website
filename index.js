@@ -37,15 +37,15 @@ document.getElementById("yes").onclick = function(){
 
     // Rose Petals
     const petalImages = [
-        "/assets/petal1.png",
-        "/assets/petal2.png",
-        "/assets/petal3.png",
-        "/assets/petal4.png",
-        "/assets/petal5.png",
-        "/assets/petal6.png",
-        "/assets/petal7.png",
-        "/assets/petal8.png",
-        "/assets/petal9.png"
+        "assets/petal1.png",
+        "assets/petal2.png",
+        "assets/petal3.png",
+        "assets/petal4.png",
+        "assets/petal5.png",
+        "assets/petal6.png",
+        "assets/petal7.png",
+        "assets/petal8.png",
+        "assets/petal9.png"
     ];
 
     function createPetal() {
